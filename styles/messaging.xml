@@ -93,4 +93,8 @@
 
     <!-- Flip to yes when ready -->
     <ready_to_send desc="yes|no"></ready_to_send>
+
+    <expected_response>
+    A single clear and coherent message, returned in a code block as plain text.
+    </expected_response>
 </whatsapp_reply_draft>
