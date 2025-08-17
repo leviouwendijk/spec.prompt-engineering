@@ -1,0 +1,96 @@
+<whatsapp_reply_draft>
+    <!-- Paste the exact incoming message -->
+    <message_raw desc="Exact client text as received.">
+    </message_raw>
+
+    <!-- One-liner that captures what they want -->
+    <summary desc="Brief intent summary.">
+    </summary>
+
+    <!-- Classify the request to guide handling -->
+    <classification desc="Pick one or more types.">
+        <type>faq|logistics|training|billing|complaint|other</type>
+        <confidence desc="0-1"></confidence>
+    </classification>
+
+    <!-- Useful background (if known) to personalize and avoid repeats -->
+    <context desc="Key client facts/history relevant to this reply.">
+        <client_name>
+        </client_name>
+
+        <dog_name>
+        </dog_name>
+
+        <dog_profile desc="Breed, age, key issues.">
+        </dog_profile>
+
+        <history desc="Prior sessions, promises, open tickets.">
+        </history>
+    </context>
+
+    <!-- What the reply must achieve -->
+    <objectives desc="Primary goal + any nice-to-haves.">
+        <primary></primary>
+        <secondary></secondary>
+    </objectives>
+
+    <!-- Guardrails to keep us accurate and on-brand -->
+    <constraints desc="Policies, availability, prices, limits, disclaimers.">
+        <policy></policy>
+        <scheduling desc="Earliest slots, blackout days."></scheduling>
+        <pricing desc="If relevant: ranges or links, no custom quotes here."></pricing>
+        <tone desc="Warm, clear, concise; no jargon; NL if Dutch client."></tone>
+    </constraints>
+
+    <!-- Hard facts we will include (no guessing) -->
+    <facts_to_include desc="Bullets of verified facts only.">
+        <fact>
+        </fact>
+
+        <fact>
+        </fact>
+    </facts_to_include>
+
+    <!-- Unknowns we should clarify before committing -->
+    <unknowns desc="Questions we must ask to proceed safely.">
+        <ask>
+        </ask>
+
+        <ask>
+        </ask>
+    </unknowns>
+
+    <!-- The proposed message (single, ready-to-send version) -->
+    <reply_draft desc="One clear, polite, WhatsApp-length message."></reply_draft>
+
+    <!-- Optional alternates for tone/length/CTA differences -->
+    <alternatives desc="Up to 2 variants if helpful.">
+        <variant name="short"></variant>
+        <variant name="reassuring"></variant>
+    </alternatives>
+
+    <!-- Next actions we propose or schedule offers we can make -->
+    <followups desc="Calls to action, links, scheduling options.">
+        <cta>
+        </cta>
+
+        <cta>
+        </cta>
+    </followups>
+
+    <!-- Anything sensitive or that needs review -->
+    <risks_and_flags desc="Refunds, legal, safety, aggression, medical.">
+    </risks_and_flags>
+
+    <!-- Final preflight checklist -->
+    <final_checklist desc="Mark YES/NO; fix before sending.">
+        <is_factually_correct></is_factually_correct>
+        <answers_the_question></answers_the_question>
+        <contains_no_unkept_promises></contains_no_unkept_promises>
+        <tone_is_on_brand></tone_is_on_brand>
+        <spelling_grammar_ok></spelling_grammar_ok>
+    </final_checklist>
+
+    <!-- Flip to yes when ready -->
+    <ready_to_send desc="yes|no"></ready_to_send>
+</whatsapp_reply_draft>
