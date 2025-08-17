@@ -1,0 +1,13 @@
+<analysis>
+    <topic>Impact of [x, y] on [z]</topic>
+    <dimensions>
+        <dimension>Political</dimension>
+        <dimension>Cultural</dimension>
+        <dimension>Economic</dimension>
+    </dimensions>
+    <response_format>
+        <section name="Political"></section>
+        <section name="Cultural"></section>
+        <section name="Economic"></section>
+    </response_format>
+</analysis>

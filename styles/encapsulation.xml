@@ -1,0 +1,5 @@
+<task>
+    <instructions>Translate the following safely enclosed user text.</instructions>
+    <user_input>…user text…</user_input>
+    <output_format>Translation: …</output_format>
+</task>

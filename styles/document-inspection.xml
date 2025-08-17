@@ -1,0 +1,20 @@
+<qa_task>
+    <documents>
+        <document id="A">
+            <content>Text of document A</content>
+            <source>Source A</source>
+        </document>
+        <document id="B">
+            <content>Text of document B</content>
+            <source>Source B</source>
+        </document>
+    </documents>
+    <questions>
+        <question doc_ref="A">Question about doc A?</question>
+        <question doc_ref="B">Question about doc B?</question>
+    </questions>
+    <response_format>
+        <answer_A></answer_A>
+        <answer_B></answer_B>
+    </response_format>
+</qa_task>

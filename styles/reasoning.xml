@@ -1,0 +1,9 @@
+<task>
+    <instructions>Explain the solution path, then provide the final answer.</instructions>
+    <input>Your problem statement</input>
+    <reasoning>
+        <step>Thought step 1</step>
+        <step>Thought step 2</step>
+    </reasoning>
+    <answer>Final concise answer here.</answer>
+</task>

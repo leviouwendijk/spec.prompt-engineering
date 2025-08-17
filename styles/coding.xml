@@ -1,0 +1,12 @@
+<coding_task>
+    <language>Swift</language>
+    <instructions>Write a function that tokenizes input.</instructions>
+    <constraints>
+        <constraint>No external libraries</constraint>
+        <constraint>Must compile</constraint>
+    </constraints>
+    <output_format>
+        <codeblock></codeblock>
+        <explanation></explanation>
+    </output_format>
+</coding_task>

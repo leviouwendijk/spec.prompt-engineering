@@ -1,0 +1,10 @@
+<system>
+    <role>Your role description (e.g. AI tutor)...</role>
+    <background>Who the user is or their needs</background>
+    <step_by_step>
+        <step>First step instruction</step>
+        <step>Second step instruction</step>
+    </step_by_step>
+    <few_shot_examples>…</few_shot_examples>
+    <expected_response_format>…</expected_response_format>
+</system>

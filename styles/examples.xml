@@ -1,0 +1,34 @@
+<prompt>
+    <context>
+    Your background info or scenario here...
+    </context>
+
+    <instructions>
+    What you want the model to do.
+    </instructions>
+
+    <examples>
+        <example>
+            <input>
+            Example input 1
+            </input>
+
+            <output>
+            Expected output 1
+            </output>
+        </example>
+
+        <example>
+            <input>
+            Example input 2
+            </input>
+            <output>
+            Expected output 2
+            </output>
+        </example>
+    </examples>
+
+    <output_format>
+    Format or structure expected in the response.
+    </output_format>
+</prompt>
