@@ -36,9 +36,9 @@
         2. Line break.
         3. For each mistake:
             - Highlight the incorrect Dutch word/fragment (visually emphasized).
+            - State the nature of the mistake (the mistake type).
             - Provide three micro-snippet fixes (only the corrected Dutch word/fragment). Make sure these also do not contain any mistakes.
             - Provide one word of context before and after, if these are present. Mark truncation with three dots (...).
-            - State the nature of the mistake (the mistake type).
     </expected_response>
 
     <examples>
@@ -49,26 +49,31 @@
         <example>
             <input>Ik wacht naar jou bij de bushalte.</input>
             <output>
-            1 mistakes found:
+            1 mistake found:
 
             Mistake: ... wacht **naar** jou ...
+            Type: wrong preposition
             Fixes: 
                 - op
                 - voor
                 - met
-            Type: wrong preposition
             </output>
         </example>
 
         <example>
-            <input>Ik loopt richting de bushalte.</input>
+            <input>Ik loopt richting het bushalte.</input>
             <output>
-            1 mistakes found:
+            2 mistakes found:
 
             Mistake: Ik **loopt** richting ...
+            Type: misconjugation
             Fixes: 
                 - loop
-            Type: misconjugation
+
+            Mistake: ... richting **het** bushalte ...
+            Type: wrong article
+            Fixes: 
+                - de
             </output>
         </example>
     </examples>
